@@ -1,4 +1,62 @@
 
+/* -------- MULI FONT ---------------*/
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQjUwkQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQjUwkQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQjUwkQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* -------- IBM PLEX ---------------*/
+
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v8/zYX9KVElMYYaJe8bpLHnCwDKjR7_AIFsdP3pBms.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v8/zYXgKVElMYYaJe8bpLHnCwDKhdHeFaxOedc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v8/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIFsdP3pBms.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
   @page{
     width: 8.65in;
     height: 11.3in;
@@ -11,47 +69,6 @@
     margin-bottom: 5mm;
 }
 
-@font-face {
-    font-family: 'Muli';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQjUwkQ.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  
-  @font-face {
-    font-family: 'Muli';
-    font-style: bold;
-    font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQjUwkQ.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-@font-face {
-    font-family: 'Muli';
-    font-style: bolder;
-    font-weight: 900;
-    src: url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQjUwkQ.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v8/zYXgKVElMYYaJe8bpLHnCwDKhdHeFaxOedc.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  @font-face {
-    font-family: 'IBM Plex Sans';
-    font-style: bold;
-    font-weight: 700;
-    src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v8/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIFsdP3pBms.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-
  div[data-type="chapter"]
   {
       width: 8.65in;
@@ -63,8 +80,8 @@
   h1[data-type="document-title"], #chapTitle1 .os-part-text, #chapTitle1 .os-number{
     color: #0074BC;
     line-height: 1.5rem;
+    font-weight: 900;
     font-family: "Muli";
-    font-style: bolder;
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     margin-top: 70px;
@@ -82,7 +99,7 @@
     font-family: "IBM Plex Sans";
     font-size: 2.8rem;
     line-height: 3rem;
-    font-style: lighter;
+    font-weight: 400;
     color: black;
     text-transform: none;
     letter-spacing: 1px;
@@ -124,7 +141,7 @@ img{
 .os-caption-container .os-title-label, .os-caption-container .os-number{
     color: #C31427;
     font-family: "Muli";
-    font-style: bold;
+    font-weight: 700;
     font-size: small;
 }
 
@@ -157,7 +174,7 @@ img{
 .intro-body .intro-text .os-text{
     text-transform: uppercase;
     font-size: 12px;
-    font-style: bold;
+    font-weight: 700;
     display: inline-block;
 }
 
@@ -176,7 +193,7 @@ img{
 .os-chapter-outline .os-title{
     color: white;
     font-size: 12px;
-    font-style: bold;
+    font-weight: 700;
     font-family: "IBM Plex Sans";
     margin-top: 0;
     border-bottom: white 2px solid;
@@ -187,7 +204,7 @@ img{
 a.os-chapter-objective, .os-chapter-objective .os-number, .os-chapter-objective .os-text{
     color: white;
     font-size: 12px;
-    font-style: bold;
+    font-weight: 700;
     font-family: "IBM Plex Sans";
     display: inline-block;
     text-decoration: none; 
@@ -245,7 +262,7 @@ a.os-chapter-objective, .os-chapter-objective .os-number, .os-chapter-objective 
 }
 
 .chapter-content-module h3{
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .chapter-content-module h3, .chapter-content-module p{
