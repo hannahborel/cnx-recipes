@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,400,500,700&display=swap&subset=latin,latin-ext;);
+
 /* -------- MULI FONT ---------------*/
 
 @font-face {
@@ -79,7 +79,7 @@
     font-family: "Muli";
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
-    margin-top: 70px;
+    margin-top: 65px;
 }
 
   h1[data-type="document-title"]{
@@ -129,7 +129,7 @@ img{
     padding-top: 1rem;
     padding-bottom: 1.5rem;
     padding-left: 80px;
-    padding-right: 212px;
+    padding-right: 230px;
     font-size: 12px;
 }
 
@@ -183,6 +183,7 @@ img{
     padding-bottom: 1rem;
     padding-left: 1.3rem;
     float: right;
+    left: 10px;
 }
 
 .os-chapter-outline .os-title{
