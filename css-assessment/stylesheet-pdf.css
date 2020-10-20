@@ -43,23 +43,20 @@
   }
 
   /* Image/Caption Block */
-  h1[data-type="document-title"],
-  #chapTitle1 .os-part-text, 
-  #chapTitle1 .os-number {
-
+  h1[data-type="document-title"], #chapTitle1 .os-part-text, #chapTitle1 .os-number{
     color: #0074BC;
     font-weight: bolder;
     line-height: 1.5rem;
     font-family: "Muli";
     font-size: 2rem;
     letter-spacing: 0.1rem;
-
 }
 
   h1[data-type="document-title"]{
     padding-left: 100px;
     margin-right: 8px;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #chapTitle1 .os-text{
@@ -70,11 +67,10 @@
     font-weight: lighter;
     color: black;
     text-transform: none;
+    letter-spacing: 1px;
 }
 
-div.os-figure.has-splash, 
-.introduction, 
-.splash{
+div.os-figure.has-splash, .introduction, .splash{
     width: 882.39px;
 }
 
@@ -82,22 +78,15 @@ div.os-figure.has-splash{
     margin-bottom: 2rem;
     font-size: 0;
     margin-right: 0;
-
 }
 
 .splash{
+    background-color: #0074BC;
+    padding-left: 100px;
+    width: 782.39px;
     margin: 0;
-    padding: 0;
 }
 
-.color-block{
-    width: 100px;
-    height: 419.88px;
-    background-color: #0074BC;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
 img{
     width: 8.15in;
     display: inline-block;
@@ -108,19 +97,21 @@ img{
     background-color: #EEEAE0;  
     font-family: "IBM Plex Sans";
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
     padding-left: 100px;
-    padding-right: 185px;
-    font-size: small;
-
+    padding-right: 212px;
+    font-size: 12px;
 }
 
-.os-title-label, .os-number{
+.os-caption-container .os-title-label, .os-caption-container .os-number{
     color: #C31427;
     font-family: "Muli";
     font-weight: bold;
     font-size: small;
+}
 
+.os-caption-container .os-number{
+    margin-right: 8px;
 }
 
 /* Introduction Paragraph Block */
@@ -130,7 +121,6 @@ img{
     overflow: hidden;
     position: relative;
     top: -15px;
-  
 }
 
 .intro-text{
@@ -145,6 +135,7 @@ img{
     margin: 0;
     display: inline;
 }
+
 .intro-body .intro-text .os-text{
     text-transform: uppercase;
     font-size: 12px;
@@ -152,7 +143,7 @@ img{
     display: inline-block;
 }
 
-/* Blue Chapter Outline Block */
+/******** Blue Chapter Outline Block *********/
 
 .os-chapter-outline{
     background-color: #0074BC;
@@ -160,9 +151,8 @@ img{
     margin-right: -0.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-    padding-left: 1.5rem;
+    padding-left: 1.3rem;
     float: right;
-
 }
 
 .os-chapter-outline .os-title{
@@ -174,7 +164,6 @@ img{
     border-bottom: white 2px solid;
     line-height: 1.5rem;
     overflow: hidden;
-
 }
 
 a.os-chapter-objective, .os-chapter-objective .os-number, .os-chapter-objective .os-text{
@@ -185,49 +174,44 @@ a.os-chapter-objective, .os-chapter-objective .os-number, .os-chapter-objective 
     display: inline-block;
     text-decoration: none; 
     vertical-align: top;
-   
 }
 
 .os-chapter-objective .os-text{
     width: 120px;
     padding-right: 35px;
-    padding-left: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
     line-height: 1rem;
-    margin-bottom: 1rem
+    margin-bottom: 0.5rem
 }
 
 
-/* Bottom Section */
+/********** Bottom Section  ********* */
 
 .chapter-content-module{
-    margin-left: 80px;
-    width: 435px;
+    margin-left: 65px;
+    width: 445px;
     margin-right: 0;
     position: relative;
     top: -45px;
 }
-.chapter-content-module .os-number, 
-.chapter-content-module .os-text,
-.chapter-content-module h3,
-.chapter-content-module p
-{
+
+.chapter-content-module .os-number, .chapter-content-module .os-text, .chapter-content-module h3,
+.chapter-content-module p{
     color: #0074BC;
     font-family: "Muli";
-    margin-left: 20px
+    margin-left: 35px;
 }
 
-/* ? Document Title */
+
+/******* ? Document Title **********/
 
 
 .chapter-content-module .os-text{
     margin-left: 0;
 }
 
-.chapter-content-module .os-number, 
-.chapter-content-module .os-text{
-
-    font-size: 1.5rem;
+.chapter-content-module .os-number, .chapter-content-module .os-text{
+    font-size: 1.4rem;
 }
 
 .chapter-content-module p{
@@ -239,10 +223,14 @@ a.os-chapter-objective, .os-chapter-objective .os-number, .os-chapter-objective 
     margin-top: 0;
     font-size: 12px;
     font-family: 'Muli';
+    list-style: none; 
 }
 
-.chapter-content-module h3,
-.chapter-content-module p{
+.chapter-content-module h3{
+    font-weight: 900;
+}
+
+.chapter-content-module h3, .chapter-content-module p{
     font-size: .9rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -252,4 +240,10 @@ a.os-chapter-objective, .os-chapter-objective .os-number, .os-chapter-objective 
     margin-bottom: 8px;
 }
 
-
+ul li::before {
+    content: "\2022"; 
+    color: #0074BC;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+  }
