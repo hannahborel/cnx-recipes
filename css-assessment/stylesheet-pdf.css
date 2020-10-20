@@ -40,13 +40,13 @@
   }
 
   @page{
-    size: 9.15in 12in;
+    size: 9.15in 11in;
   }
   
   @page {
     margin-left: 0mm;
     margin-right: 0mm;
-    margin-top: 0mm;
+    margin-top: 5mm;
     margin-bottom: 0mm;
 }
 
@@ -59,7 +59,7 @@
   /* Image/Caption Block */
   h1[data-type="document-title"], #chapTitle1 .os-part-text, #chapTitle1 .os-number{
     color: #0074BC;
-    font-weight: bolder;
+    font-weight: bold;
     line-height: 1.5rem;
     font-family: "Muli";
     font-size: 2rem;
@@ -76,7 +76,7 @@
 #chapTitle1 .os-text{
     display: block;
     font-family: "IBM Plex Sans";
-    font-size: 3.2rem;
+    font-size: 3.0rem;
     line-height: 3rem;
     font-weight: lighter;
     color: black;
@@ -241,7 +241,7 @@ a.os-chapter-objective, .os-chapter-objective .os-number, .os-chapter-objective 
 }
 
 .chapter-content-module h3{
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .chapter-content-module h3, .chapter-content-module p{
